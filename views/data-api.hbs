@@ -1,0 +1,29 @@
+
+
+<div class="container mt-5">
+    <div class="row">
+        
+         {{#each items}}
+        <div class="col-sm-3">
+           <div class="card">
+  <img src="/dataimgapi/img/menu/{{this.gambar}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">
+         {{this.kategori}}</h5>
+    <p>Nama : {{this.nama}}</p>
+    <p>Deksripsi : {{this.deskripsi}}</p>
+    <p>Harga : {{this.harga}}</p>
+    <a href="#" class="btn btn-primary btn-lg btn-block">Pesan</a>
+  </div>
+</div>
+
+
+        </div>
+        
+         {{/each}}
+    </div>
+
+</div>
+<section>
+    
+</section>
